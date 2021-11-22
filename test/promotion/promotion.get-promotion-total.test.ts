@@ -1,6 +1,6 @@
-import { getPromotionTotals } from "../../src";
-import { CartTotalOuptutDto } from "../../src/dto/cart";
-import { PromotionInputDto } from "../../src/dto/promotion";
+import { getPromotionTotals } from '../../src';
+import { CartTotalOuptutDto } from '../../src/dto/cart';
+import { PromotionInputDto } from '../../src/dto/promotion';
 
 describe('getPromotionTotals', () => {
   test('it should be correct values', () => {

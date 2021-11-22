@@ -1,5 +1,7 @@
-
-import { ProductTotalsOutputDto, ProgressiveTotalInputDto } from '../../dto/product';
+import {
+  ProductTotalsOutputDto,
+  ProgressiveTotalInputDto,
+} from '../../dto/product';
 import { getUnitPrice } from './unit-price';
 
 export const calculateProgressiveTotal = (

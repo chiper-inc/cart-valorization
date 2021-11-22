@@ -1,5 +1,4 @@
-import { ProductPricesInputDto, UnitPrice } from "../../dto/product";
-
+import { ProductPricesInputDto, UnitPrice } from '../../dto/product';
 
 export const getUnitPrice = (price: ProductPricesInputDto): UnitPrice => {
   const {

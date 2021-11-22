@@ -3,7 +3,6 @@ export const sum = (a: number, b: number) => {
   return a + b;
 };
 
-
-export * from './cart'
-export * from './product'
-export * from './promotion'
+export * from './cart';
+export * from './product';
+export * from './promotion';

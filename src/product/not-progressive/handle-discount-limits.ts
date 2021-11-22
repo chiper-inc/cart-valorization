@@ -1,5 +1,7 @@
-import { discountLimitsInputDto, discountLimitsOutputDto } from "../../dto/product";
-
+import {
+  discountLimitsInputDto,
+  discountLimitsOutputDto,
+} from '../../dto/product';
 
 export const handleDiscountLimits = (
   input: discountLimitsInputDto

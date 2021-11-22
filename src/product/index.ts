@@ -1,1 +1,1 @@
-export * from './product-total'
+export * from './product-total';

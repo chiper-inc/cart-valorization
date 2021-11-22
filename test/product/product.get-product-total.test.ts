@@ -1,6 +1,6 @@
-import { getProductTotals } from "../../src";
-import { CartTotalOuptutDto } from "../../src/dto/cart";
-import { ProductInputDto } from "../../src/dto/product";
+import { getProductTotals } from '../../src';
+import { CartTotalOuptutDto } from '../../src/dto/cart';
+import { ProductInputDto } from '../../src/dto/product';
 
 describe('getProductTotals', () => {
   test('it should be correct values without products', () => {

@@ -1,4 +1,4 @@
-import { ProductPricesInputDto, setPriceInputDto } from "../../dto/product";
+import { ProductPricesInputDto, setPriceInputDto } from '../../dto/product';
 
 export const setPrice = (input: setPriceInputDto): ProductPricesInputDto => {
   const { price, shouldSetPrice, actualPrice } = input;

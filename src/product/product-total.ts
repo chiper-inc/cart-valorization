@@ -1,8 +1,8 @@
-import { CartTotalOuptutDto } from "../dto/cart";
-import { ProductInputDto, ProductTotalsOutputDto } from "../dto/product";
-import { round } from "../utils/funcionts";
-import { calculateNotProgressiveTotals } from "./not-progressive";
-import { calculateProgressiveTotal } from "./progressive";
+import { CartTotalOuptutDto } from '../dto/cart';
+import { ProductInputDto, ProductTotalsOutputDto } from '../dto/product';
+import { round } from '../utils/funcionts';
+import { calculateNotProgressiveTotals } from './not-progressive';
+import { calculateProgressiveTotal } from './progressive';
 
 export const productTotal = (
   product: ProductInputDto

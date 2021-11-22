@@ -1,11 +1,9 @@
-import { CartTotalInputDto, CartTotalOuptutDto } from "../dto/cart";
-import { getProductTotals } from "../product";
-import { getPromotionTotals } from "../promotion";
-import { round } from "../utils/funcionts";
+import { CartTotalInputDto, CartTotalOuptutDto } from '../dto/cart';
+import { getProductTotals } from '../product';
+import { getPromotionTotals } from '../promotion';
+import { round } from '../utils/funcionts';
 
-export const cartTotal = (
-  input: CartTotalInputDto
-): CartTotalOuptutDto => {
+export const cartTotal = (input: CartTotalInputDto): CartTotalOuptutDto => {
   const { products, promotions } = input;
 
   let total = 0;

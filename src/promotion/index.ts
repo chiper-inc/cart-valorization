@@ -1,1 +1,1 @@
-export * from './promotion.total'
+export * from './promotion.total';

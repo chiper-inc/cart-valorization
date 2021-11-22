@@ -1,2 +1,2 @@
-export * from './progressive-total'
-export * from './unit-price'
+export * from './progressive-total';
+export * from './unit-price';

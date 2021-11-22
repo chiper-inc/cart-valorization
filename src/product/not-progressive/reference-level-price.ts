@@ -1,4 +1,7 @@
-import { ProductPricesInputDto, ReferenceLevelInputDto } from '../../dto/product';
+import {
+  ProductPricesInputDto,
+  ReferenceLevelInputDto,
+} from '../../dto/product';
 import { checkLevelQuantity } from './check-level-quantity';
 import { getMinimumQuantity } from './minimum-quantity';
 import { setPrice } from './set-price';

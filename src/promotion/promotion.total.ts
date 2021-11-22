@@ -1,6 +1,6 @@
-import { CartTotalOuptutDto } from "../dto/cart";
-import { PromotionInputDto } from "../dto/promotion";
-import { round } from "../utils/funcionts";
+import { CartTotalOuptutDto } from '../dto/cart';
+import { PromotionInputDto } from '../dto/promotion';
+import { round } from '../utils/funcionts';
 
 const promotionTotal = (promotion: PromotionInputDto) => {
   const {
