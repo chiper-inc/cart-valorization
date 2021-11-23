@@ -6,3 +6,8 @@ export const sum = (a: number, b: number) => {
 export * from './cart';
 export * from './product';
 export * from './promotion';
+
+export * from './dto/cart';
+export * from './dto/product/product.input.dto';
+export * from './dto/product/produtc-prices.input.dto';
+export * from './dto/product/product-totals.output.dto';
